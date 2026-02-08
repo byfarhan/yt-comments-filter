@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Filter | Farhan Muhammed</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.5; max-width: 800px; margin: auto; padding: 20px; color: #333; }
+        .header { border-bottom: 2px solid #eee; margin-bottom: 20px; padding-bottom: 10px; }
+        .tutorial-box { float: right; width: 280px; margin: 0 0 20px 20px; padding: 10px; background: #f4f4f4; border-radius: 8px; font-size: 12px; }
+        input { width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { background: #007bff; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; width: 100%; font-weight: bold; }
+        button:hover { background: #0056b3; }
+        .comment { background: #fff; border-left: 4px solid #007bff; padding: 10px; margin: 10px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .dev-link { margin-top: 40px; text-align: center; border-top: 1px solid #eee; padding-top: 20px; }
+        a { color: #e1306c; text-decoration: none; font-weight: bold; }
+        @media (max-width: 600px) { .tutorial-box { float: none; width: 100%; margin: 10px 0; } }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>YouTube Feedback Filter</h1>
+        <p>Developed by: <strong>Farhan Muhammed</strong></p>
+    </div>
+
+    <div class="tutorial-box">
+        <strong>🔑 Setup Tutorial</strong><br>
+        <iframe width="100%" height="150" src="https://www.youtube.com/embed/yLyhPIIF4Og" frameborder="0" allowfullscreen></iframe>
+        <p><em>Note: Video by Tech Fury (Educational use).</em></p>
+    </div>
+
+    <div id="main-tool">
+        <label>Google API Key:</label>
+        <input type="password" id="apiKey" placeholder="Paste your API key here">
+        
+        <label>Video Link:</label>
+        <input type="text" id="videoUrl" placeholder="Paste YouTube link (Browser or Share link)">
+        
+        <button onclick="process()">Filter Genuine Comments</button>
+    </div>
+
+    <h3 id="status" style="margin-top:30px;">Results</h3>
+    <div id="results"></div>
+
+    <div class="dev-link">
+        <p>Ownership: <strong>Farhan Muhammed</strong></p>
+        <a href="https://instagram.com/byfarhan.io" target="_blank">👋 Say Hai to Developer on Instagram</a>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
