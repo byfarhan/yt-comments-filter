@@ -26,4 +26,4 @@ This repository provides the technology in two ways:
 ## 🛠 Setup & Usage
 1. **Clone the Repo:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/yt-feedback-filter.git](https://github.com/YOUR_USERNAME/yt-feedback-filter.git)
+   git clone [https://github.com/byfarhan/yt-comments-filter.git](https://github.com/byfarhan/yt-comments-filter.git)
